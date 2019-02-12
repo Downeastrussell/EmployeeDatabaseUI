@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport content=width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Employee Database Interface</title>
+</head>
+
+<body>
+
+  <fieldset id="form">
+    <legend>Register a New Employee</legend>
+
+    <label for="HR">First Name</label>
+    <input type="text" id="firstName">
+
+    <label for="HR">Last Name</label>
+    <input type="text" id="lastName">
+
+    <label for="HR">Email Addresss</label>
+    <input type="text" id="email">
+
+    <label for="HR">Phone Number</label>
+    <input type="tel" id="phone">
+
+    <label for="HR">Birthday</label>
+    <input type="date" name="bday" id="bday">
+
+    <label for="HR">Department</label>
+    <select name="gender" id="department">
+      <option value="Sales">Sales</option>
+      <option value="Engineering">Engineering</option>
+      <option value="Human Resources">Human Resources</option>
+    </select>
+
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="other">other</option>
+    </select>
+
+    <label for="supervisor">Supervisor</label>
+    <input type="checkbox" id="supervisor">
+
+    <label for="peon">Peon</label>
+    <input type="checkbox" id="peon">
+
+  </fieldset>
+
+  <button id="save">Save New Employee</button>
+
+  <div id="DOMreturn"> </div>
+
+
+  <script src="scripts/printDOM.js"></script>
+  <script src="scripts/DELETE.js"></script>
+  <script src="scripts/POST.js"></script>
+  <script src="scripts/saveEmployee.js"></script>
+  <script src="scripts/main.js"></script>
+
+</body>
+
+</html>

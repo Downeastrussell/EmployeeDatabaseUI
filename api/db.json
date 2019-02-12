@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "firstName": "russ",
+      "lastName": "mill",
+      "email": "downeastrussell@gmail.com",
+      "phone": "456789",
+      "bday": "2019-02-22",
+      "department": "Human Resources",
+      "gender": "Female",
+      "supervisor": false,
+      "peon": true,
+      "id": 1
+    },
+    {
+      "firstName": "russellette",
+      "lastName": "millar",
+      "email": "downeastrussell@gmail.com",
+      "phone": "45678978",
+      "bday": "2019-02-22",
+      "department": "Sales",
+      "gender": "other",
+      "supervisor": true,
+      "peon": false,
+      "id": 2
+    }
+  ]
+}
